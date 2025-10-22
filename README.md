@@ -12,11 +12,6 @@ It supports **instant private messaging**, **user presence**, and **peer-to-peer
 - [⚙️ Project Setup](#️-project-setup)
   - [Backend (ASP.NET Core)](#backend-aspnet-core)
   - [Frontend (Angular)](#frontend-angular)
-- [🔑 Authentication](#-authentication)
-- [💬 Real-Time Features](#-real-time-features)
-- [🎥 Video Calling (WebRTC)](#-video-calling-webrtc)
-- [📦 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [💙 Credits](#-credits)
 
@@ -82,3 +77,21 @@ cd Heckle.API
 dotnet restore
 dotnet ef database update
 dotnet run
+```
+### Frontend (Angular)
+
+```bash
+cd Heckle.Client
+npm install
+ng serve
+```
+
+---
+
+## 📄 License
+This project is licensed under the MIT License 
+
+---
+
+## 💙 Credits
+Inspired by CodeWithPush
